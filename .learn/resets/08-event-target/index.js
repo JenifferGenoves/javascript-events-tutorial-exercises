@@ -2,11 +2,6 @@ window.onload = function loadFn() {
 	let containerElm = document.getElementById("container");
 	containerElm.addEventListener("click", function(event) {
 		// Your code here
-		console.log("Ejecutando escucha");
-		console.log(event, "event");
-		console.log(event.target, "event target");
-
-
-		alert(event.target.id);
+		
 	});
 };
